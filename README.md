@@ -21,4 +21,5 @@ et telecarger PojavLauncher
 
 - ----------------------------------------
 Encore des erreurs ? Sela signifie qu'il y a meux etre des erreurs dans mon mod, je ferais le mieux pour l'amélioration du mod !
-  
+---------------------------------------
+Ce mod utilise la (LICENSE) MIT liser attentivement LICENSE.md
