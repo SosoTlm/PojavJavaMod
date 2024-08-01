@@ -1,0 +1,23 @@
+plugins {
+    id 'fabric-loom' version '0.10-SNAPSHOT'
+}
+
+minecraft {
+    refmap 'cachecache.refmap.json'
+}
+
+dependencies {
+    minecraft 'com.mojang:minecraft:1.21'
+    mappings 'net.fabricmc:yarn:1.21+build.1:v2'
+    modImplementation 'net.fabricmc:fabric-loader:0.14.8'
+    modImplementation 'net.fabricmc.fabric-api:fabric-api:0.37.0+1.21'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabricmc.net/' }
+}
+
+group = 'com.example'
+version = '1.0'
+archivesBaseName = 'cachecache'
