@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "cachecache",
+    "version": "${version}",
+    "name": "Cache-Cache Mod",
+    "description": "A simple hide and seek mod for Minecraft.",
+    "authors": ["YourName"],
+    "contact": {
+        "homepage": "https://example.com",
+        "sources": "https://github.com/example/cachecache"
+    },
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.example.cachecache.CacheCacheMod"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.8",
+        "minecraft": "1.21.x",
+        "fabric-api": "*"
+    }
+}
